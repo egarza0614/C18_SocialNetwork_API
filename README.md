@@ -24,7 +24,7 @@ Social Network API application that allows Users, Thoughts and Reactions.
 
 Using this application entails creation, updating and deleting of Users, Thoughts, Reactions and even Friends through HTTP requests.
 
-Demo Video: https://drive.google.com/file/d/1eN4PyOjuWJoYhRkHryXmwAukZfOuMOcN/view
+Demo Video: https://drive.google.com/
 
 ![Social Network API](./public/images/social-network-api-1.png)
 

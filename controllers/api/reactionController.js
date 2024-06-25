@@ -10,7 +10,7 @@ module.exports = {
     } catch (err) {
       res.status(500).json({ error: 'Failed to fetch reactions' });
     }
-  };
+  },
 
   // POST to create a reaction (stored on a thought)
   createReaction: (Reaction, Thought) => async (req, res) => {
@@ -26,7 +26,7 @@ module.exports = {
     } catch (err) {
       res.status(500).json({ error: 'Failed to create reaction' });
     }
-  };
+  },
 
   // DELETE to pull and remove a reaction by the reaction's _id value
   deleteReaction: (Thought) => async (req, res) => {
@@ -46,7 +46,6 @@ module.exports = {
     } catch (err) {
       res.status(500).json({ error: 'Failed to delete reaction' });
     }
-  };
+  },
 
-  return router;
 };

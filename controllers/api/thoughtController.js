@@ -10,7 +10,7 @@ module.exports = {
     } catch (err) {
       res.status(500).json({ error: 'Failed to fetch thoughts' });
     }
-  };
+  },
 
   // GET a single thought by its ID
   getThoughtById: (Thought) => async (req, res) => {
@@ -21,7 +21,7 @@ module.exports = {
     } catch (err) {
       res.status(500).json({ error: 'Failed to fetch thought' });
     }
-  };
+  },
 
   // POST a new thought
   createThought: (Thought) => async (req, res) => {
@@ -38,7 +38,7 @@ module.exports = {
     } catch (err) {
       res.status(500).json({ error: 'Failed to create thought' });
     }
-  };
+  },
 
   // PUT to update a thought by its ID
   updateThought: (Thought) => async (req, res) => {
@@ -53,7 +53,7 @@ module.exports = {
     } catch (err) {
       res.status(500).json({ error: 'Failed to update thought' });
     }
-  };
+  },
 
   // DELETE to remove thought by its ID
   deleteThought: (Thought) => async (req, res) => {
@@ -71,7 +71,6 @@ module.exports = {
     } catch (err) {
       res.status(500).json({ error: 'Failed to delete thought' });
     }
-  };
+  }
   
-  return router;
 };

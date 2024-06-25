@@ -32,7 +32,7 @@ module.exports = {
     } catch (err) {
       res.status(500).json({ error: 'Failed to add friend' });
     }
-  };
+  },
 
   // DELETE to remove a friend from a user's friend list
   removeFriend: (User) => async (req, res) => {
@@ -62,7 +62,6 @@ module.exports = {
     } catch (err) {
       res.status(500).json({ error: 'Failed to remove friend' });
     }
-  };
+  },
 
-  return router;
 };

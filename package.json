@@ -1,8 +1,10 @@
 {
   "name": "c18_socialnetwork_api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "seed": "node seeds/seed.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
